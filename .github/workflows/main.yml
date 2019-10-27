@@ -9,5 +9,4 @@ jobs:
 
     steps:
       - uses: thattomperson/hugo-action@master
-        with:
-          who-to-greet: 'Mona the Octocat'
+      - run: hugo --minify
